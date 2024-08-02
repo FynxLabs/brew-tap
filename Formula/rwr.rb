@@ -5,21 +5,21 @@
 class Rwr < Formula
   desc "Rinse, Wash, Repeat (RWR) - Configuration Management Tool"
   homepage "https://github.com/fynxlabs/rwr"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/FynxLabs/rwr/releases/download/v0.1.2/rwr_Darwin_x86_64.tar.gz"
-      sha256 "0a10dcae57efd36ab4ce2dad38ee6914797f93d881b849305d5b9d556a7c0937"
+      url "https://github.com/FynxLabs/rwr/releases/download/v0.1.3/rwr_Darwin_x86_64.tar.gz"
+      sha256 "53f7f1022825a3847162697027a965ee706dd3e2b81bb5258dc82b2cc1cc96c0"
 
       def install
         bin.install "rwr"
       end
     end
     on_arm do
-      url "https://github.com/FynxLabs/rwr/releases/download/v0.1.2/rwr_Darwin_arm64.tar.gz"
-      sha256 "d2a6eca7250a83b9a4404ab8f90c7e19d445d5fcbc6fc43f0883462622096faf"
+      url "https://github.com/FynxLabs/rwr/releases/download/v0.1.3/rwr_Darwin_arm64.tar.gz"
+      sha256 "266e8f493a1ef9d284e2af09d0a72aaf2aaeead73d5b93170100bfee9e926a20"
 
       def install
         bin.install "rwr"
@@ -30,8 +30,8 @@ class Rwr < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/FynxLabs/rwr/releases/download/v0.1.2/rwr_Linux_x86_64.tar.gz"
-        sha256 "ed749669537057f7968a005571af9f9d4ccce795f7b4cfd02e04b5e926807197"
+        url "https://github.com/FynxLabs/rwr/releases/download/v0.1.3/rwr_Linux_x86_64.tar.gz"
+        sha256 "599e6d1a911eae69a895c6af6c2aa8cc99754052837ce793ea955aebc719ddb8"
 
         def install
           bin.install "rwr"
@@ -40,8 +40,8 @@ class Rwr < Formula
     end
     on_arm do
       if !Hardware::CPU.is_64_bit?
-        url "https://github.com/FynxLabs/rwr/releases/download/v0.1.2/rwr_Linux_armv7.tar.gz"
-        sha256 "597c060e715ba7d7607fc9e97f5d3da34af3ae49c0e3b3e8d7e61e9cc6f643c8"
+        url "https://github.com/FynxLabs/rwr/releases/download/v0.1.3/rwr_Linux_armv7.tar.gz"
+        sha256 "f8a1a79a4f26d33fa6a64da8be577eecba882a7128cdb9d6e758b3d85b5ad390"
 
         def install
           bin.install "rwr"
@@ -50,8 +50,8 @@ class Rwr < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/FynxLabs/rwr/releases/download/v0.1.2/rwr_Linux_arm64.tar.gz"
-        sha256 "77e0f8567203f3fbab1a9b67ca5f316dadede5724ccd9ad10f1b2a73aa61d4ab"
+        url "https://github.com/FynxLabs/rwr/releases/download/v0.1.3/rwr_Linux_arm64.tar.gz"
+        sha256 "9d63abeab9ce0d814cac262ce6cd04f53a96ee3ad5e9170e1e4fbe935e1d081f"
 
         def install
           bin.install "rwr"
