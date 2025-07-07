@@ -2,7 +2,7 @@
 cask "rwr" do
   desc "Rinse, Wash, Repeat (RWR) - Configuration Management Tool"
   homepage "https://github.com/fynxlabs/rwr"
-  version "0.3.3"
+  version "0.3.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "rwr" do
 
   on_macos do
     on_intel do
-      url "https://github.com/FynxLabs/rwr/releases/download/v0.3.3/rwr_Darwin_x86_64.tar.gz"
-      sha256 "ff5faf82efd70f849161a29ef4e90aec33928ac22247ab24864451b8944ad871"
+      url "https://github.com/FynxLabs/rwr/releases/download/v0.3.4/rwr_Darwin_x86_64.tar.gz"
+      sha256 "83d7c7be9f3e432f38a6b39491fcc03e1103dccbd886466ac957c26cdd5a2727"
     end
     on_arm do
-      url "https://github.com/FynxLabs/rwr/releases/download/v0.3.3/rwr_Darwin_arm64.tar.gz"
-      sha256 "52e20c2c8c95687114a7bbafbf2d6f152e541afb0120ed5a4eecb20aeb21ac0b"
+      url "https://github.com/FynxLabs/rwr/releases/download/v0.3.4/rwr_Darwin_arm64.tar.gz"
+      sha256 "e3192e6dda4543e9b129ce21c0acfcc541c19659122fff69e6974974bea3267f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/FynxLabs/rwr/releases/download/v0.3.3/rwr_Linux_x86_64.tar.gz"
-      sha256 "de379c1b7f30404d66725ced8f7f39b8f9fcf4f163430265000f4d93a55b54fd"
+      url "https://github.com/FynxLabs/rwr/releases/download/v0.3.4/rwr_Linux_x86_64.tar.gz"
+      sha256 "35ea09c24338ff46259ab188f85a17f8244c2296c3fff7e81755c73215ab28b7"
     end
     on_arm do
-      url "https://github.com/FynxLabs/rwr/releases/download/v0.3.3/rwr_Linux_arm64.tar.gz"
-      sha256 "602e9df1e2fbc0b98b5e4c10b48d1ec4987a1c78d8610045a2ac67757df925b4"
+      url "https://github.com/FynxLabs/rwr/releases/download/v0.3.4/rwr_Linux_arm64.tar.gz"
+      sha256 "ebb9a6de07dbd7b4318ea58f941d4cb1dd125f98a599240d4372a1f00851e7cf"
     end
   end
 
